@@ -1,10 +1,11 @@
 name: CI/CD for Static Site with GitHub Pages
-name: CI/CD for Static Site with GitHub Pages
+
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+
 
 jobs:
   stage-1-checkout:
